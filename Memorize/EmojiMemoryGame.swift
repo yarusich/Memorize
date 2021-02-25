@@ -19,9 +19,9 @@ class EmojiMemoryGame: ObservableObject {
     static var theme = themes.randomElement()!
     static var themes: Array = [hell, animals,sports]
     
-    static var hell: Theme = Theme(name: "Hell", color: .red, numberOfPairs: 6, arrayOfEmoji: ["👻", "🌚", "🎃", "👹", "🦴", "🤡", "😈", "😱", "💀", "👺", "🦇"])
-    static var animals = Theme(name: "Animals", color: .yellow, numberOfPairs: 9, arrayOfEmoji: ["🐶", "🐱", "🐹", "🦊", "🐻", "🐼", "🦁", "🐺", "🐰", "🐨"])
-    static var sports = Theme(name: "Sports", color: .blue, numberOfPairs: 12, arrayOfEmoji: ["⚽️", "🏀", "🏈", "🥎", "🏐", "🥌", "🎱", "🏓", "🏒"])
+    static var hell: Theme = Theme(name: "Hell", color: .red, numberOfPairs: 9, arrayOfEmoji: ["👻", "🌚", "🎃", "👹", "🦴", "🤡", "😈", "😱", "💀", "👺", "🦇"])
+    static var animals = Theme(name: "Animals", color: .yellow, numberOfPairs: 12, arrayOfEmoji: ["🐶", "🐱", "🐹", "🦊", "🐻", "🐼", "🦁", "🐺", "🐰", "🐨", "🐸", "🐻‍❄️", "🐯"])
+    static var sports = Theme(name: "Sports", color: .blue, numberOfPairs: 6, arrayOfEmoji: ["⚽️", "🏀", "🏈", "🥎", "🏐", "🥌", "🎱", "🏓", "🏒"])
     
     
     //@Published обёртка свойства, вызывает каждый раз objectWillChange.send(), когда меняется model
